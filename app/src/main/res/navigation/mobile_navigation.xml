@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.carwash.inicio_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_registrarvehiculo"
+        android:name="com.example.carwash.Vehiculo.RegistroVehiculoFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_registro_automovil" />
+
+    <fragment
+        android:id="@+id/nav_cotizacion"
+        android:name="com.example.carwash.Cotizacion.cotizacion_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_cotizacion" />
+    <fragment
+        android:id="@+id/nav_perfilvehiculos"
+        android:name="com.example.carwash.Vehiculo.PerfilVehiculoFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_perfil_vehiculo" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.carwash.Usuario.PerfilUsuarioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_perfil_usuario" />
+    <fragment
+        android:id="@+id/nav_historialaceite"
+        android:name="com.example.carwash.Historial.CambiosAceiteFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_cambios_aceite" />
+
+    <fragment
+        android:id="@+id/nav_historiallavados"
+        android:name="com.example.carwash.Historial.LavadosFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_lavados" />
+
+</navigation>

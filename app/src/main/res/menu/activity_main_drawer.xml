@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:background="#FFFFFF"
+    tools:showIn="navigation_view">
+
+
+            <item
+                android:id="@+id/nav_inicio"
+                android:icon="@drawable/home__1_"
+                android:title="INICIO" />
+            <item
+                android:id="@+id/nav_cotizacion"
+                android:icon="@drawable/history"
+                android:title="SOLICITAR COTIZACION" />
+            <item
+                android:id="@+id/nav_registrarvehiculo"
+                android:icon="@drawable/car"
+                android:title="REGISTRAR UN VEHICULO" />
+            <item
+                android:id="@+id/nav_perfilvehiculos"
+                android:icon="@drawable/car_wash"
+                android:title="VEHICULOS REGISTRADOS" />
+            <item
+                android:id="@+id/nav_historialaceite"
+                android:icon="@drawable/checklist"
+                android:title="HISTORIAL DE ACEITE" />
+            <item
+                android:id="@+id/nav_historiallavados"
+                android:icon="@drawable/checklist"
+                android:title="HISTORIAL DE LAVADOS" />
+
+
+    //Item creado para dar espacio
+            <item
+                android:id="@+id/nav_t"
+                android:title="" />
+
+    // Perfil y cerrar sesion
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/cita_online"
+        android:title="MI PERFIL" />
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/sign_out"
+                android:title="CERRAR SESION" />
+
+
+</menu>
